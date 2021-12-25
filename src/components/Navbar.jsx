@@ -8,7 +8,7 @@ import useStyles from "./styles";
 const Navbar = () => {
   const classes = useStyles();
   return (
-    <>
+    <>  
       <AppBar position="static" color="inherit" className={classes.appBar}>
         <div className={classes.brandContainer}>
           <Link to="/" className={classes.heading}>
