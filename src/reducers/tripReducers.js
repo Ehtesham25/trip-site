@@ -3,7 +3,7 @@ import { tripsActionType } from "../actionTypes/ActionTypes";
 export default (state = [{ trip: [], isLoading: true }], action) => {
   switch (action.type) {
     case tripsActionType.CREATE_TRIP:
-      return [...state, action.payload];
+      return {...state, action.payload};
     case tripsActionType.GET_ALL_TRIP:
       return action.payload;
     case tripsActionType.UPDATE_TRIP:
