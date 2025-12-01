@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
-import { getAllTrips } from "../src/actions/TripActions";
+import { getAllTrips } from "../src/actions/TripActions"; 
 import "./App.css";
 
 import { Navbar, AddNewTrip, EditTrip, AllTrips } from "./components";
