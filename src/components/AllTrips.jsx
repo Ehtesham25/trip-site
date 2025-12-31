@@ -1,7 +1,7 @@
 import React from "react";
 import {  Grid } from "@material-ui/core";
 import { useSelector } from "react-redux";
- 
+  
 import AllTrip from "./AllTrip";
 import useStyles from "./styles"; 
 const AddTrip = () => {
