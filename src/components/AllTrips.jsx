@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
   
 import AllTrip from "./AllTrip";
 import useStyles from "./styles"; 
+
 const AddTrip = () => {
   const classes= useStyles()
   const trips = useSelector((state) => state.tripsReducer);
